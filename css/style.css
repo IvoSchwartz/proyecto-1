@@ -107,6 +107,19 @@ li {
 
 /* MAIN */
 
+
+
+.bk-main {
+    background-image: url('../recursos/imagenes/wp.png');
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+.bk-main p{
+    font-weight:bold;
+}
+
+
 .maindecomojugarlo{
     background-image: url(../recursos/imagenes/wp-2.jpg);
     width: 100%;
@@ -342,6 +355,10 @@ footer h2 {
 .creditos {
     text-align: center;
     padding-top: 100px;
+}
+
+.creditos p{
+    font-weight: bold;
 }
 
 .nombre {
