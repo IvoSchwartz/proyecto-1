@@ -87,7 +87,11 @@ header nav ul {
 header nav ul li a {
     list-style: none;
     text-decoration: none;
-    /* color:; */
+    
+}
+header nav ul li a:hover {
+    cursor: pointer; /* Cambia el cursor a la forma de una mano */
+    color: navy; /* Cambia el color del texto a azul marino */
 }
 
 li {
@@ -106,10 +110,9 @@ li {
 .maindecomojugarlo{
     background-image: url(../recursos/imagenes/wp-2.jpg);
     width: 100%;
-    height: 100%; 
+    height: 100; 
     background-size: cover; 
     background-position: center;
-    position: sticky; 
 }
 .maindecomojugarlo p {
     color: black;
@@ -129,7 +132,6 @@ li {
     height: 100vh; 
     background-size: cover; 
     background-position: center;
-    position: sticky; 
 }
 
 .hero {
@@ -351,7 +353,7 @@ footer h2 {
 
 
 
-/* MEDIAS QUERYS  (IPHONE X)*/
+/* MEDIAS QUERYS  (IPHONE X) */
 
 @media (max-width:576px){
 
@@ -379,6 +381,8 @@ footer h2 {
 
         .nav-celular{
             display: block;
+            position: relative;
+            z-index: 1000000000000000000000000;
         }
 
         
@@ -405,7 +409,10 @@ footer h2 {
             margin: 50px;
         }
         
-        
+        .equiposcomposicionesyconsejos img {
+            max-width: 100%; /* Establece el ancho máximo de la imagen como el ancho del contenedor */
+            height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+        }
 
         /* CIERRE MAIN */
 
