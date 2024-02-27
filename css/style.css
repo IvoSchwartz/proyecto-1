@@ -27,6 +27,7 @@
 }
 
 /* BODY */
+
 body {
     background-color: #cdfafa;
 }
@@ -50,6 +51,13 @@ h2      {
 h3      {
     font-family: beaufort-mediumitalic;
 }
+
+.texto-a{
+    text-decoration: none;
+    color:blue;
+    
+}
+
 
 
 /* HEADER */
@@ -87,7 +95,33 @@ li {
     padding: 10px;
 }
 
+.nav-celular{
+    display: none;
+}
+
+
+
 /* MAIN */
+
+.maindecomojugarlo{
+    background-image: url(../recursos/imagenes/wp-2.jpg);
+    width: 100%;
+    height: 100%; 
+    background-size: cover; 
+    background-position: center;
+    position: sticky; 
+}
+.maindecomojugarlo p {
+    color: black;
+    font-weight: bold;
+}
+.maindecomojugarlo h2{
+    font-weight: bolder;
+}
+
+.maindecomojugarlo h3{
+    font-weight: bolder;
+}
 
 .maindellore    {
     background-image: url(../recursos/imagenes/demacia.png);
@@ -106,9 +140,7 @@ li {
 h1 {
     font-family: beaufort-italic;
     font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 /* .hero1  usar cuando se necesite  */
@@ -116,7 +148,7 @@ h1 {
     font-family: beaufort-italic;
     font-size: 50px;
     display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 10px;
 }
 
@@ -150,6 +182,14 @@ h1 {
     width: fit-content;
     height: 300px;
     padding: 5px;
+    display: flex;
+    justify-content: center
+}
+
+#carouselExampleSlidesOnly {
+    width: fit-content; /* Ajusta el ancho del carrusel según el contenido */
+    height: 300px; /* Establece una altura fija para el carrusel */
+    margin: 0 auto; /* Centra el carrusel horizontalmente en su contenedor */
 }
 
 .extras {
@@ -176,6 +216,28 @@ h1 {
     font-weight: bold;
 }
 
+.equiposcomposicionesyconsejos{
+    padding: 100px;
+}
+.equiposcomposicionesyconsejos p{
+    padding: 10px;
+}
+.equiposcomposicionesyconsejos {
+    text-align: center; /* Alinea el contenido del contenedor al centro */
+  }
+  
+.equiposcomposicionesyconsejos img {
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto; /* Establece márgenes automáticos a izquierda y derecha para centrar la imagen horizontalmente */
+  }
+
+#rangos h3{
+text-align: center;
+  }
+
+#momentosdelgame h3{
+text-align: center;
+}
 
 
 
@@ -256,6 +318,7 @@ button [type="reset"]:focus {
 }
 
 /* FOOTER */
+footer{background-color: #CDFAFA;}
 
 footer h2 {
     font-family: "Times New Roman", Times, Impact, "Arial Narrow Bold", sans-serif;
@@ -276,8 +339,7 @@ footer h2 {
 
 .creditos {
     text-align: center;
-    position: relative;
-    top: 100px;
+    padding-top: 100px;
 }
 
 .nombre {
@@ -285,4 +347,68 @@ footer h2 {
     font-size: 18px;
     font-weight: bolder;
     font-family: beaufort-mediumitalic;
+}
+
+
+
+/* MEDIAS QUERYS  (IPHONE X)*/
+
+@media (max-width:576px){
+
+    /* BODY */
+    /* CIERRE BODY */
+
+
+
+    /* HEADER */
+
+        .nav-celular button {
+            background-color: transparent; /* Fondo transparente */
+            border: none; /* Sin borde */
+            box-shadow: none; /* Sin sombra */
+            padding: 0; /* Sin espacio de relleno */
+            margin: 0; /* Sin margen */
+            font-size: inherit; /* Tamaño de fuente heredado */
+            color: gold; /* Color de texto heredado */
+        }
+    
+    
+        .nav-computadora{
+            display: none;
+        }
+
+        .nav-celular{
+            display: block;
+        }
+
+        
+        .imagenlogolol {
+            width: 120px;
+            justify-content: center;
+        }
+    /* CIERRE HEADER */
+
+        /* MAIN */
+                  
+        h1 {font-size: 40px;}
+
+        .hero {
+            padding: 30px;
+            margin: 20px;
+        }     
+
+        .queeslol{
+            font-size: 40px;
+        }
+
+        .extras {
+            margin: 50px;
+        }
+        
+        
+
+        /* CIERRE MAIN */
+
+
+
 }
