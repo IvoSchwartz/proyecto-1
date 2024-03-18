@@ -1,34 +1,42 @@
 /* Estilos generales */
+/* Estilos generales */
+
 body {
     color: black;
+}
 
-    p {
-        font-family: speigel-texto;
-        font-weight: 600;
-        font-size: 22px; // Aquí establecemos directamente el tamaño de fuente en 22px
-    }
+/* Estilos para párrafos */
+p {
+    font-family: speigel-texto;
+    font-weight: 600;
+    font-size: 22px;
+}
 
-    img {
-        image-rendering: optimizeQuality;
-    }
+/* Estilos para imágenes */
+img {
+    image-rendering: optimizeQuality;
+}
 
-    h1,
-    h2 {
-        font-family: beaufort-italic;
-        font-weight: bolder;
-    }
+/* Estilos para encabezados h1 y h2 */
+h1,
+h2 {
+    font-family: beaufort-italic;
+    font-weight: bolder;
+}
 
-    h3 {
-        font-family: beaufort-mediumitalic;
-        font-weight: bold;
-    }
+/* Estilos para encabezados h3 */
+h3 {
+    font-family: beaufort-mediumitalic;
+    font-weight: bold;
+}
 
-    .texto-a {
-        text-decoration: none;
-        color: blue;
-    }
+/* Estilos para enlaces de texto */
+.texto-a {
+    text-decoration: none;
+    color: blue;
+}
 
-    li {
-        font-size: 22px;
-    }
+/* Estilos para elementos de lista */
+li {
+    font-size: 22px;
 }

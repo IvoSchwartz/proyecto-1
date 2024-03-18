@@ -1,3 +1,6 @@
+
+
+
 // VARIABLES DE FUENTES
 @font-face {
     font-family: "beaufort-italic";
@@ -33,49 +36,3 @@ $color-misterios: #9400d3;
 
 
 
-@media (max-width:576px){
-
-    /* Estilos para el cuerpo */
-    /* CIERRE del cuerpo */
-
-    /* Estilos para el encabezado */
-    
-    
-    .nav-computadora {
-        display: none;
-    }
-
-    .nav-celular {
-        display: block;
-        position: relative;
-        z-index: 1000000000000000000000000;
-    }
-
-    .imagenlogolol {
-        width: 120px;
-        justify-content: center;
-    }
-
-    /* Estilos para el cuerpo principal */
-    h1 {
-        font-size: 40px;
-    }
-
-    .hero {
-        padding: 30px;
-        margin: 20px;
-    }     
-
-    .queeslol {
-        font-size: 40px;
-    }
-
-    .extras {
-        margin: 50px;
-    }
-    
-    .equiposcomposicionesyconsejos img {
-        max-width: 100%; /* Establece el ancho máximo de la imagen como el ancho del contenedor */
-        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-    }
-}

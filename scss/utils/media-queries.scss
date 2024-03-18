@@ -1,54 +1,45 @@
-@media (max-width:576px){
-
-    /* Estilos para el cuerpo */
-    /* CIERRE del cuerpo */
-
-    /* Estilos para el encabezado */
-    .nav-celular button {
-        background-color: transparent; /* Fondo transparente */
-        border: none; /* Sin borde */
-        box-shadow: none; /* Sin sombra */
-        padding: 0; /* Sin espacio de relleno */
-        margin: 0; /* Sin margen */
-        font-size: inherit; /* Tamaño de fuente heredado */
-        color: gold; /* Color de texto heredado */
-    }
-    
-    .nav-computadora {
-        display: none;
-    }
-
-    .nav-celular {
-        display: block;
-        position: relative;
-        z-index: 1000000000000000000000000;
-    }
-
-    .imagenlogolol {
-        width: 120px;
-        justify-content: center;
-    }
-
+@media (max-width: 576px) {
     /* Estilos para el cuerpo principal */
-    h1 {
-        font-size: 40px;
+    body main {
+        form {
+            max-width: 100%; /* Cambiado para ajustar al ancho de la pantalla */
+        }
+        h1 {
+            font-size: 40px; /* Reducción del tamaño del título */
+            text-align: center; /* Centrado del texto */
+        }
     }
 
-    .hero {
-        padding: 30px;
-        margin: 20px;
-    }     
-
-    .queeslol {
-        font-size: 40px;
+    /* Estilos para el header */
+    header {
+        height: auto; /* Ajuste de altura automática */
+        flex-direction: column; /* Cambio de dirección de flexbox */
+        align-items: center; /* Centrado de elementos */
+        .imagenlogolol {
+            width: 120px; /* Reducción del tamaño del logo */
+        }
+        nav {
+            display: none; /* Ocultar el menú de navegación principal */
+        }
+        .nav-celular {
+            display: block; /* Mostrar el menú de navegación para dispositivos móviles */
+        }
     }
 
-    .extras {
-        margin: 50px;
+    /* Estilos para el footer */
+    footer {
+        .redeslink {
+            flex-direction: column; /* Cambio de dirección de flexbox para redes sociales */
+            align-items: center; /* Centrado de elementos */
+        }
+        .logolol {
+            width: 50px; /* Reducción del tamaño del logo de League of Legends */
+        }
     }
-    
+
+    /* Estilos para .equiposcomposicionesyconsejos */
     .equiposcomposicionesyconsejos img {
-        max-width: 100%; /* Establece el ancho máximo de la imagen como el ancho del contenedor */
-        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+        max-width: 100%; /* Ajuste del ancho máximo de las imágenes */
+        height: auto; /* Ajuste de la altura automática */
     }
 }
