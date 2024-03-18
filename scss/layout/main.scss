@@ -127,6 +127,16 @@ body main {
     background-repeat: no-repeat;
     height: fit-content;
 
+    img{
+        display: flex;
+        justify-content: center;
+        
+            max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+            height: auto; /* Mantiene la relación de aspecto de la imagen */
+            display: block; /* Evita que se agreguen márgenes no deseados */
+            margin: 0 auto; /* Centra la imagen horizontalmente */
+        
+    }
     p {
         color: black;
         font-weight: bold;

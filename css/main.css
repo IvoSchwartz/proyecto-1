@@ -17,90 +17,11 @@
   font-style: italic;
   font-weight: medium;
 }
-@media (max-width: 576px) {
-  /* Estilos para el cuerpo */
-  /* CIERRE del cuerpo */
-  /* Estilos para el encabezado */
-  .nav-computadora {
-    display: none;
-  }
-  .nav-celular {
-    display: block;
-    position: relative;
-    z-index: 1000000000000000000000000;
-  }
-  .imagenlogolol {
-    width: 120px;
-    justify-content: center;
-  }
-  /* Estilos para el cuerpo principal */
-  h1 {
-    font-size: 40px;
-  }
-  .hero {
-    padding: 30px;
-    margin: 20px;
-  }
-  .queeslol {
-    font-size: 40px;
-  }
-  .extras {
-    margin: 50px;
-  }
-  .equiposcomposicionesyconsejos img {
-    max-width: 100%; /* Establece el ancho máximo de la imagen como el ancho del contenedor */
-    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-  }
-}
 * {
   margin: 0%;
   padding: 0%;
 }
 
-@media (max-width: 576px) {
-  /* Estilos para el cuerpo */
-  /* CIERRE del cuerpo */
-  /* Estilos para el encabezado */
-  .nav-celular button {
-    background-color: transparent; /* Fondo transparente */
-    border: none; /* Sin borde */
-    box-shadow: none; /* Sin sombra */
-    padding: 0; /* Sin espacio de relleno */
-    margin: 0; /* Sin margen */
-    font-size: inherit; /* Tamaño de fuente heredado */
-    color: gold; /* Color de texto heredado */
-  }
-  .nav-computadora {
-    display: none;
-  }
-  .nav-celular {
-    display: block;
-    position: relative;
-    z-index: 1000000000000000000000000;
-  }
-  .imagenlogolol {
-    width: 120px;
-    justify-content: center;
-  }
-  /* Estilos para el cuerpo principal */
-  h1 {
-    font-size: 40px;
-  }
-  .hero {
-    padding: 30px;
-    margin: 20px;
-  }
-  .queeslol {
-    font-size: 40px;
-  }
-  .extras {
-    margin: 50px;
-  }
-  .equiposcomposicionesyconsejos img {
-    max-width: 100%; /* Establece el ancho máximo de la imagen como el ancho del contenedor */
-    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
-  }
-}
 header {
   display: flex;
   width: 100%;
@@ -127,7 +48,6 @@ header nav ul li {
   padding: 10px;
 }
 header nav ul li a {
-  list-style: none;
   text-decoration: none;
 }
 header nav ul li a:hover {
@@ -238,6 +158,15 @@ body main h1 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   height: fit-content;
+}
+.maindellore img,
+.maindecomojugarlo img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+  display: block; /* Evita que se agreguen márgenes no deseados */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 .maindellore p,
 .maindecomojugarlo p {
@@ -485,32 +414,86 @@ footer .creditos .nombre {
 }
 
 /* Estilos generales */
+/* Estilos generales */
 body {
   color: black;
 }
-body p {
+
+/* Estilos para párrafos */
+p {
   font-family: speigel-texto;
   font-weight: 600;
   font-size: 22px;
 }
-body img {
+
+/* Estilos para imágenes */
+img {
   image-rendering: optimizeQuality;
 }
-body h1,
-body h2 {
+
+/* Estilos para encabezados h1 y h2 */
+h1,
+h2 {
   font-family: beaufort-italic;
   font-weight: bolder;
 }
-body h3 {
+
+/* Estilos para encabezados h3 */
+h3 {
   font-family: beaufort-mediumitalic;
   font-weight: bold;
 }
-body .texto-a {
+
+/* Estilos para enlaces de texto */
+.texto-a {
   text-decoration: none;
   color: blue;
 }
-body li {
+
+/* Estilos para elementos de lista */
+li {
   font-size: 22px;
+}
+
+@media (max-width: 576px) {
+  header .nav-computadora {
+    display: none;
+  }
+  header .nav-celular {
+    display: block;
+  }
+  main h1 {
+    font-size: 50px !important;
+  }
+  main p {
+    padding: 5px;
+    margin: 40px;
+  }
+  main .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  main .hero p {
+    font-size: 18px;
+    text-align: center;
+  }
+  main .hero .queeslol {
+    font-size: 45px;
+  }
+  .maindecomojugarlo h1 {
+    font-size: 28px;
+  }
+  .maindecomojugarlo h2 {
+    font-size: 24px;
+  }
+  .maindecomojugarlo p,
+  .maindecomojugarlo li {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

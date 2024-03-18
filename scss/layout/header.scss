@@ -1,4 +1,3 @@
-
 header {
     display: flex;
     width: 100%;
@@ -8,11 +7,9 @@ header {
     left: 0;
     position: sticky;
     justify-content: space-between;
-
-    .nav-celular {
-        display: none;
-    }
-
+.nav-celular{
+    display: none;
+}
     .imagenlogolol {
         width: 180px;
         height: fit-content;
@@ -28,7 +25,6 @@ header {
                 padding: 10px;
 
                 a {
-                    list-style: none;
                     text-decoration: none;
 
                     &:hover {
@@ -40,3 +36,5 @@ header {
         }
     }
 }
+
+

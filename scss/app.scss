@@ -1,21 +1,13 @@
-@import './utils/media-queries.scss';
 //GENERAL
 @import './general/variables.scss';
 @import './general/reset.scss';
-
-
-
-
-// UTILS
-
-
-
 
 //LAYOUT
 @import './layout/header.scss';
 @import './layout/main.scss';
 @import './layout/footer.scss';
-@import './layout/body.scss'
+@import './layout/body.scss';
 
 
 
+@import './general/media-queries.scss'
