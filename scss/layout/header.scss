@@ -1,3 +1,14 @@
+// Definir el mixin con parámetros
+@mixin estilo-enlace($text-decoration, $hover-color) {
+    text-decoration: $text-decoration;
+
+    &:hover {
+        cursor: pointer; 
+        color: $hover-color; 
+    }
+}
+
+// Utilizar el mixin con parámetros en tu código CSS
 header {
     display: flex;
     width: 100%;
@@ -7,9 +18,11 @@ header {
     left: 0;
     position: sticky;
     justify-content: space-between;
-.nav-celular{
-    display: none;
-}
+
+    .nav-celular {
+        display: none;
+    }
+
     .imagenlogolol {
         width: 180px;
         height: fit-content;
@@ -25,16 +38,9 @@ header {
                 padding: 10px;
 
                 a {
-                    text-decoration: none;
-
-                    &:hover {
-                        cursor: pointer; 
-                        color: navy; 
-                    }
+                    @include estilo-enlace(none, navy); // Incluir el mixin con parámetros
                 }
             }
         }
     }
 }
-
-
