@@ -1,0 +1,389 @@
+body main {
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+
+        .form-group {
+            margin-bottom: 20px;
+
+            label {
+                display: block;
+                font-weight: bold;
+            }
+
+            input[type="text"],
+            input[type="number"],
+            select,
+            textarea {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+
+            select,
+            textarea {
+                height: 40px; 
+            }
+
+            button {
+                background-color: #4caf50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                float: right;
+
+                &[type="reset"] {
+                    background-color: #f44336;
+                }
+
+                &:hover {
+                    background-color: #45a049;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    h1 {
+        font-family: beaufort-italic;
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+/* Estilos para .maindellore y .maindecomojugarlo */
+
+
+.main-masinformacion{
+
+    background-image: url(../recursos/imagenes/jonia.jpg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: fit-content;
+
+    h2,h3{
+        color: #0a1428;
+    }
+
+
+    h1{
+        color: #0a1428;
+    }
+
+    .salud-mental{
+        padding: 10px;
+        margin: 50px;
+        
+        a{
+            text-decoration: none;
+            color:tomato;
+            font-weight: bolder;
+            font-size: large;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .esencia-azul{
+
+        h2{
+            color:navy;
+            font-weight: 900;
+            font-family: "beaufort-italic";
+        }
+
+        margin: 100px;
+        iframe {
+            margin: auto; /* Centra horizontalmente */
+            display: block; /* Para centrar verticalmente */
+        }
+    }
+    
+
+    h2,h3{
+        text-align: center;
+    }
+
+    .guiadeproblemas{
+        padding: 5px;
+        margin: 100px;
+    }
+}
+
+.maindellore,
+.maindecomojugarlo {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: fit-content;
+
+    p {
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    h2, h3 {
+        font-weight: bolder;
+    }
+}
+
+.maindellore {
+    background-image: url(../recursos/imagenes/demacia.png);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+    background-size: cover;
+    
+    span {
+        font-weight: bolder;
+    }
+
+    h2, h3 {
+        font-weight: 900;
+        color: orange;
+    }
+
+    .seccion1 {
+        
+        span {
+            font-weight: bolder;
+        }
+    }
+}
+
+.maindecomojugarlo {
+    background-image: url(../recursos/imagenes/wp-2.jpg);
+
+    h4,h3,h2,h1{
+        color: navy;
+    }
+    .jugadorespro {
+        text-align: center;
+        
+    }
+
+    #rango{
+
+        .triangulo {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid black; /* Puedes ajustar el color según tu preferencia */
+            margin-left: 5px; /* Espacio entre el texto y el triángulo */
+        }
+
+        li{
+            list-style: none;
+            font-weight: bolder;
+            
+        }
+    }
+
+    #momentosdelgame{
+        text-align: center;
+        padding: 10px;
+        li{
+            list-style: none;
+            font-weight: bolder;
+            
+        }
+
+        h3 {
+            
+            text-align: center;
+        }
+    
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+    
+        
+    
+            .icono {
+                margin-right: 10px;
+                font-size: 24px;
+            }
+        }
+    
+        .borde {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+
+.main-nosotros{
+    background-image: url(../recursos/imagenes/piltover-y-zaun-lore-lol.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    h1,h2,p{
+        text-align: center;
+        font-weight: bolder;
+        color: black;
+    }
+
+    h1{
+        font-size: 68px;
+    }
+
+    h2{
+        font-size: 40px;
+        color:orange;
+    }
+
+    p{
+        font-size: 22px;
+    }
+
+    background-image: url(../recursos/imagenes/piltover-y-zaun-lore-lol.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Estilos para #momentosdelgame y #rango */
+
+#momentosdelgame h3,
+#rango {
+    text-align: center;
+}
+
+/* Estilos para .equiposcomposicionesyconsejos */
+
+.equiposcomposicionesyconsejos {
+    padding: 100px;
+    text-align: center;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* Estilos para .bk-main y sus contenidos */
+
+.bk-main {
+    background-image: url('../recursos/imagenes/wp.png');
+    background-size: cover;
+    background-attachment: fixed;
+
+    .extras {
+        margin: 100px;
+
+        h2 {
+            font-weight: bold;
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .descargas-instalaciones {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            border: 20px solid rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+
+            h2 {
+                color: #1d2433;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: #808080;
+                font-size: 20px;
+                line-height: 1.5;
+            }
+        }
+
+        .descarga a {
+            text-decoration: none;
+            font-weight: bold;
+            color: red;
+        }
+
+        .descarga h3 {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .descarga span {
+            font-weight: bolder;
+            color: blue;
+        }
+    }
+
+    .carruselpersonajes {
+        #carouselExampleSlidesOnly {
+            width: fit-content;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        p {
+            text-align: center;
+            padding: 10px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-weight: bold;
+                color: blue;
+            }
+        }
+
+        img {
+            width: fit-content;
+            height: 300px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+/* Estilos para .hero y sus contenidos */
+
+.hero {
+    padding: 50px;
+    margin: 100px;
+    text-align: center;
+
+    .queeslol {
+        font-family: beaufort-italic;
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .seabienvenido {
+        font-size: 18px;
+        color: #c89b3c;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .infolol {
+        margin: 20px;
+    }
+}

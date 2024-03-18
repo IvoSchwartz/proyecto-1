@@ -1,0 +1,81 @@
+// VARIABLES DE FUENTES
+@font-face {
+    font-family: "beaufort-italic";
+    src: url(../recursos/tipografias/BeaufortForLoL-TTF/BeaufortForLoL-TTF/BeaufortforLOL-Italic.ttf);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: "speigel-texto";
+    src: url(../recursos/tipografias/Spiegel-TTF/Spiegel_TT_Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "beaufort-mediumitalic";
+    src: url(../recursos/tipografias/BeaufortForLoL-TTF/BeaufortForLoL-TTF/BeaufortforLOL-MediumItalic.ttf);
+    font-style: italic;
+    font-weight: medium;
+}
+
+// VARIABLES DE COLORES
+$color-runaterra: #5b9ad4;
+$color-islas-sombra: #483d8b;
+$color-freljord: #b0e0e6;
+$color-piltover-zaun: #c0c0c0;
+$color-potencias: #8b4513;
+$color-campeones: #32cd32;
+$color-conflictos: #ff6347;
+$color-eventos: #ffd700;
+$color-misterios: #9400d3;
+
+
+
+@media (max-width:576px){
+
+    /* Estilos para el cuerpo */
+    /* CIERRE del cuerpo */
+
+    /* Estilos para el encabezado */
+    
+    
+    .nav-computadora {
+        display: none;
+    }
+
+    .nav-celular {
+        display: block;
+        position: relative;
+        z-index: 1000000000000000000000000;
+    }
+
+    .imagenlogolol {
+        width: 120px;
+        justify-content: center;
+    }
+
+    /* Estilos para el cuerpo principal */
+    h1 {
+        font-size: 40px;
+    }
+
+    .hero {
+        padding: 30px;
+        margin: 20px;
+    }     
+
+    .queeslol {
+        font-size: 40px;
+    }
+
+    .extras {
+        margin: 50px;
+    }
+    
+    .equiposcomposicionesyconsejos img {
+        max-width: 100%; /* Establece el ancho máximo de la imagen como el ancho del contenedor */
+        height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    }
+}

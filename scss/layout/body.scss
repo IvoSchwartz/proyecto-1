@@ -1,0 +1,34 @@
+/* Estilos generales */
+body {
+    color: black;
+
+    p {
+        font-family: speigel-texto;
+        font-weight: 600;
+        font-size: 22px; // Aquí establecemos directamente el tamaño de fuente en 22px
+    }
+
+    img {
+        image-rendering: optimizeQuality;
+    }
+
+    h1,
+    h2 {
+        font-family: beaufort-italic;
+        font-weight: bolder;
+    }
+
+    h3 {
+        font-family: beaufort-mediumitalic;
+        font-weight: bold;
+    }
+
+    .texto-a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    li {
+        font-size: 22px;
+    }
+}
