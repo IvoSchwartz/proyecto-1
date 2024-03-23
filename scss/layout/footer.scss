@@ -1,8 +1,8 @@
-
 footer {
-
-    background-image: linear-gradient(to right, lightblue,purple, red, );
-    height: fit-content;
+    background-image: linear-gradient(to right, lightblue, purple, red);
+    height: 100%; /* Asegura que el footer ocupe toda la altura disponible */
+    margin: 0%;
+    padding: 0%;
     /* Estilos para el título del footer */
     h2 {
         font-family: "Times New Roman", Times, Impact, "Arial Narrow Bold", sans-serif;
@@ -41,4 +41,3 @@ footer {
         }
     }
 }
-

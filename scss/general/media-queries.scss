@@ -9,14 +9,46 @@
         }
     }
 
+    .main-masinformacion{
+        text-align: center;
+
+        form{
+            width: fit-content;
+            height: fit-content;
+        }
+
+        .esencia-azul{
+            iframe{
+                width: auto;
+                align-items: center;
+                
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block; /* Para asegurar que ocupe todo el ancho disponible */
+                
+            }
+        }
+
+        p{
+            font-size: 18px;
+        }
+        
+        h1{
+            font-size: 30px;
+        }
+    }
+
     main {
+       
+        
+
         h1 {
             font-size: 50px !important;
         }
 
         p {
-            padding: 5px;
-            margin: 40px;
+            padding: 10px;
+            
         }
 
         .hero {
